@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://192.168.1.70:4100/vessel_db?createDatabaseIfNotExist=true
+    url: jdbc:mysql://discovery:3306/fleet_db?createDatabaseIfNotExist=true
     username: service
     password: service
     driver-class-name: com.mysql.jdbc.Driver
@@ -11,4 +11,4 @@ spring:
       ddl-auto: update
 
 server:
-  port: 8080
+  port: 8090
